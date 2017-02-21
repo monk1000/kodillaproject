@@ -1,0 +1,234 @@
+body {
+	padding: 50px 0;	
+}
+
+.navbar  {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.navbar li {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	letter-spacing: 1px;
+}
+
+/*Carousel*/
+
+.carousel-inner .carousel-caption h4 {
+		font-family: 'Limelight', cursive;
+		letter-spacing: 4px;
+		font-size: 3em;
+		text-transform: uppercase;
+		
+}
+
+.carousel-inner .carousel-caption p {
+		font-family: 'Playfair Display', serif;
+		font-size: 1em;
+		letter-spacing: 1px;
+}
+
+/*tabs*/
+
+.tabsy {
+	margin: 15px 0 15px 0;	
+}
+
+.tabsy .nav li {
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-weight: bolder;
+	letter-spacing: 2px	
+}
+
+.tabsy h3 {
+		padding: 10px;
+		font-family: 'Playfair Display', serif;
+		font-size: 1.7em;
+		font-weight: bolder;
+		letter-spacing: 1px;
+}
+
+
+.tabsy p {
+	text-align: justify;
+	font-family: 'Abel', sans-serif;
+	font-size: 1.3em;
+	padding: 5px 0 15px 0;
+}
+
+/*modal*/
+
+.credits {
+	text-align: center;
+	padding: 25px;
+}
+
+.credits .btn-credits {
+	color: #1f3840;
+    background-color: #eee;
+    border-color: #e2e2e2;
+    width: 250px;
+    text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.credits .btn-credits:hover {
+	color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    width: 250px;
+    transition: .3s;
+}
+
+.modal-header {
+	text-align: right;	
+}
+
+.modal-header .photo {
+	background-image: url("https://images.pexels.com/photos/7370/startup-photo.jpg?h=350&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.modal-header .btn {
+ 	border-radius: 50%;
+}
+
+.modal-header .btn-sm {
+	padding: 3px 6px;
+    font-size: 10px;
+    line-height: 1;    
+}
+
+.modal-header .btn-primary {
+	color: #1f1e1e;
+    background-color: #e8e0e0;
+   	border-color: #e8e0e0;
+}
+
+.modal-header .btn-primary:hover {
+	color: #000;
+    background-color: #fff;
+   	border-color: #c4c4c4;
+}
+
+.modal-body {
+	text-align: center;
+}
+
+.modal-body h2 {
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.modal-body h3 {
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-size: 1em;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.modal-body p {
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-size: 1em;
+	letter-spacing: 2px;	
+}
+
+.modal-body span {
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-size: 1em;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.modal-footer {
+	text-align: center;
+    padding-bottom: 20px;	
+}
+
+.modal-footer .btn-primary {
+	color: #fff;
+    background-color: #bb41a1;
+    border-color: #a42e7a;
+    text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+
+.modal-footer .btn-primary:hover {
+	color: #000;
+    background-color: #fff;
+   	border-color: #c4c4c4;
+}
+
+/*footer*/
+
+footer {
+	background-color: #1f3840;
+}
+
+@media (min-width: 1200px) {
+	
+	.carousel, .carousel-inner {
+		height: calc(90vh - 50px);
+	}
+	
+	.carousel-inner .carousel-caption {
+		bottom: 355px;	
+	}
+	
+	.carousel-inner .carousel-caption h4 {
+		font-family: 'Limelight', cursive;
+		font-size: 7em;
+		letter-spacing: 10px;
+		text-transform: uppercase;
+		
+	}
+	.carousel-inner .carousel-caption p {
+		font-family: 'Playfair Display', serif;
+		font-size: 1.6em;
+		letter-spacing: 1px;
+	}
+
+}
+
+@media (min-width: 992px) {
+	
+	.carousel, .carousel-inner {
+		height: calc(90vh - 50px);
+	}
+	
+	.carousel-inner .carousel-caption {
+		bottom: 395px;	
+	}
+	
+	.carousel-inner .carousel-caption h4 {
+		font-family: 'Limelight', cursive;
+		font-size: 3.5em;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		
+	}
+	.carousel-inner .carousel-caption p {
+		font-family: 'Playfair Display', serif;
+		font-size: 1.3em;
+		letter-spacing: 1px;
+	}
+
+}
